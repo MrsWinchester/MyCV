@@ -1,8 +1,35 @@
+/* Base body styles for better readability */
+body {
+  font-size: 18px;      /* larger font size */
+  line-height: 1.6;     /* more breathing room between lines */
+  font-family: Arial, Helvetica, sans-serif; /* clean, readable font */
+  color: #222;          /* dark text for contrast */
+  background-color: #f9f9f9; /* light background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Improve card/article spacing */
+.card article {
+  margin-bottom: 1.5rem; /* extra space between Education/Experience entries */
+}
+
+/* Improve skills pill readability */
+.pill-list li {
+  padding: 0.5rem 1rem;  /* more padding inside pills */
+  margin: 0.25rem;       /* spacing between pills */
+  border-radius: 20px;   /* rounded pill shape */
+  background: #e6f2ff;   /* light blue background */
+  border: 1px solid #b3d9ff;
+  color: #003366;        /* dark blue text */
+}
+
+/* Keep your existing .main-content styles */
 .main-content {
-    margin: 0;
-    min-height: 100vh;
-    background: #fff;
-    border: 1vw solid #2f3032;
-    box-sizing: border-box;
-    background-color: #f3f6fa;
+  margin: 0;
+  min-height: 100vh;
+  background: #fff;
+  border: 1vw solid #2f3023;
+  box-sizing: border-box;
+  background-color: #f3f6fa;
 }
