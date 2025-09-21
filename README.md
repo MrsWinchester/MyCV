@@ -16,3 +16,8 @@ This project demonstrates my ability to:
    ```bash
    git clone https://github.com/MrsWinchester/MyCV.git
 
+## Usage
+View the live site online at the link above.
+
+### Screenshot
+![Screenshot of MyCV homepage](img/img/Screenshot 2025-09-21 030000.png)
